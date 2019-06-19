@@ -1,0 +1,3 @@
+name: genparser
+dependencies:
+        - python=3.6

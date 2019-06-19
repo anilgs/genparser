@@ -1,0 +1,9 @@
+{
+  "name": "genparser",
+  "authors": ["anilgs@gmail.com <anilgs@gmail.com>"],
+  "description": "Python parser with custom grammar for MEP product descriptions",
+  "main": "index.js",
+  "license": "None",
+  "homepage": "",
+  "ignore": ["**/.*", "node_modules", "bower_components", "test", "tests"]
+}
