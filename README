@@ -1,2 +1,25 @@
 genparser
 Python parser with custom grammar for MEP product descriptions
+
+Yields results such as the following:
+
+PIPE FLANGE FORGED STEEL SLIP-ON WELD 150# 1/2" DIAM
+
+{'name': 'PIPE FLANGE FORGED STEEL SLIP-ON WELD ', 'class': '150# ', 'attrs': [{'value_unit_attr': {'value_unit': {'value': '1/2', 'unit': '"'}, 'attr': ' DIAM\n'}}]}
+
+
+PIPE FLANGE FS SLIP ON WELD 300LB 1-1/4" PIPE DIAM
+
+{'name': 'PIPE FLANGE FS SLIP ON WELD ', 'attrs': [{'value_unit_attr': {'value_unit': {'value': '300', 'unit': 'LB'}, 'attr': ' '}}, {'value_unit_attr': {'value_unit': {'value': '1-1/4', 'unit': '"'}, 'attr': ' PIPE DIAM\n'}}]}
+
+
+PIPE FLANGE WELD NECK 150LB 1" PIPE DIAM
+
+{'name': 'PIPE FLANGE WELD NECK ', 'attrs': [{'value_unit_attr': {'value_unit': {'value': '150', 'unit': 'LB'}, 'attr': ' '}}, {'value_unit_attr': {'value_unit': {'value': '1', 'unit': '"'}, 'attr': ' PIPE DIAM\n'}}]}
+
+
+VALVES BRONZE BALL 125 LB SOLDER, 3/8" DIAM
+
+{'name': 'VALVES BRONZE BALL ', 'attrs': [{'value_unit_attr': {'value_unit': {'value': '125 ', 'unit': 'LB'}, 'attr': ' SOLDER, '}}, {'value_unit_attr': {'value_unit': {'value': '3/8', 'unit': '"'}, 'attr': ' DIAM\n'}}]}
+
+
